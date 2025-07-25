@@ -1,6 +1,6 @@
 import json
 from tqdm import tqdm
-from src.evaluation.AutomaticEvaluator import AutomaticEvaluator
+from src.evaluation.metrics.AutomaticEvaluator import AutomaticEvaluator
 
 class MetricsRunner:
     def __init__(self, base_path: str, finetuned_path: str, gold_path: str, lang: str = "es"):
