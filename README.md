@@ -1,4 +1,4 @@
-# 🧠 Evaluador Multimodal de Actividades Escolares
+# Evaluador Multimodal de Actividades Escolares
 
 [![My Skills](https://skillicons.dev/icons?i=python,pytorch,jupyter)](https://skillicons.dev)
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub Logo" width="40" style="margin-left: 5px">
@@ -30,11 +30,11 @@ mediante modelos de visión y de procesamiento del lenguaje natural". El proyect
 
 ```
 data/
-  huggingface_uploader/          # Subida del modelo fine-tuneado a la plataforma
-  json_formatter/                # Preparación del conjunto de datos
+  huggingface_uploader/              # Subida del modelo fine-tuneado a la plataforma
+  json_formatter/                    # Preparación del conjunto de datos
 notebooks/
-  qwen_inference.ipynb           # Inferencia con modelo base
-  qwen_finetuning.ipynb          # Fine-tuning supervisado con LoRA
+  qwen_inference.ipynb               # Inferencia con modelo base
+  qwen_finetuning.ipynb              # Fine-tuning supervisado con LoRA
 src/
   evaluation/
     gpt_judge/
@@ -95,7 +95,7 @@ El script `data/huggingface_uploader/HuggingFaceUploader.py` permite cargar los 
 huggingface-cli login
 ```
 
-Podrás encontrar el modelo en HuggingFace: AaronPA/qwen2vl-finetuned-school-corrector.
+Podrás encontrar el modelo en HuggingFace: `AaronPA/qwen2vl-finetuned-school-corrector`.
 
 ---
 
